@@ -119,3 +119,15 @@ html {
 .servicestexts {
   text-align: center;
 }
+.formd {
+  width: 50%;
+  margin-left: 20%;
+  padding-top: 7vh;
+  height: 100vh;
+}
+.ordernow {
+  height: 100vh;
+}
+.btn-primary {
+  height: 50px;
+}
