@@ -12,9 +12,9 @@
         <li><a href="">Home</a></li>
         <li><a href="#servicessec">Services</a></li>
         <li><a href="#aboutsec">About</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#contacsec">Contact</a></li>
       </div>
-      <button class="btn btn-success">Order now</button>
+      <a href="#ordersec"><button class="btn btn-success">Order now</button></a>
     </div>
     <div class="wrapper">
       <div class="texts">
@@ -91,77 +91,151 @@
     <section id="ordersec">
       <div class="ordernow">
         <div class="formd">
-          
-            <div class="form-group">
-              <form>
-   <h1>ORDER SERVICES</h1>
-                  <div class="row">
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="First name">
-                    </div>
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="Last name">
-                    </div>
+          <div class="form-group">
+            <h1>ORDER SERVICES</h1>
+            <form>
+              <div class="row">
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First name"
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last name"
+                  />
+                </div>
+                </div>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Service needed</label>
+  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    <option selected>Choose a service</option>
+    <option value="1">House cleaning </option>
+    <option value="2">Carpet cleaning</option>
+    <option value="3">Car wash</option>
+  </select>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="inputEmail4"
+                      placeholder="Email"
+                    />
                   </div>
-                  <div class= "form-group">
-                    <label for="firstName">First Name</label>
-                   <input type="text" class="form-control firstName" id="firstName">
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="inputPassword4"
+                      placeholder="Password"
+                    />
                   </div>
-                   
-                  <div class= "form-group">
-                   <label for="lastName">Last Name</label>
-                  <input type="text" class="form-control lastName" id="lastName">
-                 </div>
-   
-                  <div id= "new-addresses">
-                      <div class="form-group">
-                         <label for="street">Street</label>
-                         <input type="text" class="form-control street">
-                      </div>
-                      <div class="form-group">
-                       <label for="city">City</label>
-                       <input type="text" class="form-control city" >
-                    </div>
-                    <div class="form-group">
-                     <label for="country">country</label>
-                     <input type="text" class="form-control country" >
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Address</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress"
+                    placeholder="1234 Main St"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Address 2</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress2"
+                    placeholder="Apartment, studio, or floor"
+                  />
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity" />
                   </div>
-              <label for="exampleInputEmail1">Email address</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="Enter email"
-              />
-              <small id="emailHelp" class="form-text text-muted"
-                >We'll never share your email with anyone else.</small
-              >
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">Service needed</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>Carpet cleaning</option>
-                <option>Coach cleaning</option>
-                <option>Office cleaning</option>
-                <option>House cleaning</option>
-                <option>Out door cleaning</option>
-              </select>
-            </div>
-            <div class="form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >Check me out</label
-              >
-            </div>
-            <button type="submit" class="btn btn-primary">ORDER SERVICE</button>
-          </form>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck"
+                    />
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
+    </section>
+    <section id="contacsec">
+      <div class="contactus">
+        <h3>Let's talk</h3>
+        <div class="contact">
+          <div class="contactmsg">
+            <h1>Contact us</h1>
+            <p>
+              if you want to reserve a table in our restaurant, contact and we
+              will <br />attend you quickly with our 24/7 chat service
+            </p>
+          </div>
+          <button>Contact us now</button>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="social">
+          <h3>Safi</h3>
+          <h4>cleaning</h4>
+          <div class="socialimages">
+            <img src="pics/facebook-circular-logo.svg" alt="" />
+            <img src="pics/instagram.png" alt="" />
+            <img src="pics/twitter.png" alt="" />
+          </div>
+        </div>
+        <div class="serviceList">
+          <h3>Services</h3>
+          <h4>Pricing</h4>
+          <h4>reserve your spot</h4>
+        </div>
+        <div class="infoList">
+          <h3>Information</h3>
+          <h4>Event</h4>
+          <h4>Contact us</h4>
+          <h4>Privacy policy</h4>
+          <h4>Terms of services</h4>
+        </div>
+        <div class="addressList">
+          <h3>Address</h3>
+          <h4>Dar es Saalam Tanzania</h4>
+          <h4>Ubungo 908</h4>
+          <h4>+255 7355 555</h4>
+          <h4>tevislin18@gmail.com</h4>
+        </div>
+      </div>
+      <h5>©2020 Group2</h5>
     </section>
   </body>
 </html>
