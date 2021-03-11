@@ -5,7 +5,12 @@ The Safi App  is a cleaning services website within the city that allows custome
 
 ReadMe
 
-##Authors  : Musau Joan ,John Wainaina,Caroline Maunda,Emmanuel Mbonimpa, Victor Paul
+list of authors:
+Musau Joan 
+John Wainaina
+Caroline Maunda
+Emmanuel Mbonimpa
+Victor Paul
 
 
 #Project Description
