@@ -17,7 +17,7 @@ Emmanuel Mbonimpa
 Victor Paul
 
 
-#Project Description
+# Project Description
 The project, Safi website allows customers to request cleaning services from Safi. Customers are required to provide information on their location as well as the services they would like and the site gives them a quote on the services and further deploy cleaners to cater for the client.The app is flexible as it allows user to enter their precise location not being confined to certain location limits.
 
 # Setup requirements
